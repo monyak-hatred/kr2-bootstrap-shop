@@ -44,14 +44,3 @@ kr2-bootstrap-shop/
 ├── images/
 ├── README.md
 └── .gitignore
-
----
-
-### 🔹 Дополнение 2: Добавь картинку в карточки каталога (по желанию, но так лучше)
-
-В методичке на Этапе 11 просят стилизовать `.card-img-top`. Чтобы они применились, давай добавим в `catalog.html` картинку-заглушку. 
-
-В файле `catalog.html` внутри каждой карточки (сразу после `<div class="card h-100 shadow-sm">`) добавь строку:
-
-```html
-<img src="https://via.placeholder.com/400x200?text=Product+Image" class="card-img-top" alt="Товар">
